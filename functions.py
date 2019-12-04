@@ -276,7 +276,7 @@ def makeAttributes():
 def makePerson(age, sex):
   #creates a dictionary which holds characteristcs of a person
   # we need depth and parent to determine whether the tree being attempted to be created is valid
-  return {'age':age, 'sex': sex, "depth":None, "parent": 0}
+  return {'age':age, 'sex': sex}
 
 def addPerson(dictionary, personName, personSpecs):
   #adds a person to a dictionary so long as the person has the following qualities
@@ -409,5 +409,13 @@ addPerson(attri, 19, p19)
 addPerson(attri, 20, p20)
 addPerson(attri, 21, p21)
 
+while 1:
+  inp = input().split()
+  inp len(inp) == 1:
+    if inp == "bye":
+      print("Goodbye!")
+      break
+    elif inp == "count":
+      l = len()
+
 #print(getAttri(attri, 6, 'age'))
-print(tree.getLinks())
