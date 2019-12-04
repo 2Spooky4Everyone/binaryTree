@@ -1,0 +1,18 @@
+family TheFamilyName
+count 4
+name A
+age 56
+sex true
+name B
+age 15
+sex false
+name C
+age 24
+sex true
+name D
+age 2
+sex false
+links 3
+child A B
+child A C
+child C D
